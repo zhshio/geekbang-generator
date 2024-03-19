@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.zhshio</groupId>
+    <artifactId>GeekBangGenerator</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- 配置项目的属性 -->
+    <properties>
+        <!-- 指定Java版本 -->
+        <java.version>1.8</java.version>
+        <!-- 目标Java版本 -->
+        <target.java.version>1.8</target.java.version>
+        <!-- 设置Maven编译器的源代码版本 -->
+        <maven.compiler.source>${target.java.version}</maven.compiler.source>
+        <!-- 设置Maven编译器的目标代码版本 -->
+        <maven.compiler.target>${target.java.version}</maven.compiler.target>
+        <!-- 设置项目构建时的源代码编码 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+
+</project>
