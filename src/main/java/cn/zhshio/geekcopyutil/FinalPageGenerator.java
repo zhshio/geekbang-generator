@@ -33,7 +33,7 @@ public class FinalPageGenerator {
     private static void setConfigurations() {
         // D:\Download\BaiduNetdiskDownload\81-浏览器工作原理与实践
         // 设置公共父目录
-        ConcourseFile.setPARENTCATALOGUE("D:\\Download\\BaiduNetdiskDownload\\");
+        ConcourseFile.setPARENTCATALOGUE("D:\\BaiduNetdiskDownload\\");
         // 设置原始文件目录
         ConcourseFile.setSUBCATALOGUE("81-浏览器工作原理与实践");
         // 设置生成目标文件目录
